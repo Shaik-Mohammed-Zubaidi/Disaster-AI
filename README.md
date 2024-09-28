@@ -14,28 +14,25 @@ Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
 ## Who's on your team?
 *List the full names,  email address & Github username of your teammates*
 
-1.   **Full Name**  || **fullname@company.com**  (or fullname@school.edu if you're a CS student) || **Github Username**
-2. 
-3.
-4.
-5.
+1.   **Mohammed Zubaidi Shaik**  || **msk2r@umkc.edu**  || **Shaik-Mohammed-Zubaidi**
 
 <br /><br />
 
 
 ## What is the name of your App?
+Disaster-AI
 
 <br /><br />
 ## What does your app do?
-*Describe in a paragraph or so*
+
 
 <br /><br />
 
 
 ## What challenges are you building for? SELECT ALL THAT APPLY
 *See hackmidwest.com/#prizes for challenge details*
-- [ ]  Pinata Challenge
-- [ ]  Pinata AI Challenge
+- [x]  Pinata Challenge
+- [x]  Pinata AI Challenge
 - [ ]  Pinata Enterprise Challenge
 - [ ]  AWS Bedrock Challenge
 - [ ]  Red Hat | Intel AI Challenge
