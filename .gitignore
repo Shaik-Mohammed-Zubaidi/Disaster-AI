@@ -6,3 +6,6 @@ server/.env.local
 server/Hurricane helene helplines
 server/Who
 server/Hurricane helene helplines search_results.txt
+server/pinata.js
+server/__pycache__
+
