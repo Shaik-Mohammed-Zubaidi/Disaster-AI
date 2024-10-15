@@ -1,44 +1,83 @@
-# Welcome to Hack Midwest 2024!
-<br /><br />
+# Disaster-AI Web App
 
+### Overview:
+Disaster-AI is a web application that provides real-time, relevant responses to user queries during disasters using a Retrieval-Augmented Generation (RAG) model. The app allows users to ask disaster-related questions and receive accurate information instantly. Key features include:
 
-## Getting Started
-Ensure you have reviewed the [Rules & FAQ](https://hackmidwest.com/#faq)
-1. Clone this repository and rename to the name of your app or idea
-2. Make it **private**
-3. Add pr@kcitp.com as a user
-4. Populate the Team, App & Challenges info below and update as needed
+- **Text-based query input**: Users can type questions about disaster relief, safety tips, or other calamity-related concerns.
+- **Real-time responses**: The system fetches relevant content using a large language model (T5-large).
+- **Web-based platform**: Accessible on any browser with a clean, easy-to-use interface.
+- **Potential offline functionality** (future update).
 
-<br /><br />
+---
 
-## Who's on your team?
-*List the full names,  email address & Github username of your teammates*
+### Features:
+- **Quick Help via Text Box**: Users input questions in a text box and receive instant responses.
+- **Calamity-Specific Information**: Users can ask questions on various aspects of a disaster, from preparedness to recovery.
+- **Real-time, Accurate Responses**: The app utilizes a RAG-based approach to ensure responses are relevant and timely.
 
-1.   **Mohammed Zubaidi Shaik**  || **msk2r@umkc.edu**  || **Shaik-Mohammed-Zubaidi**
+---
 
-<br /><br />
+### Prerequisites:
+Before running the project, ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v14 or above)
+- [MongoDB](https://www.mongodb.com/) (for local database, or use a cloud-based MongoDB service like Atlas)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
 
+---
 
-## What is the name of your App?
-Disaster-AI
+### Installation Instructions:
 
-<br /><br />
-## What does your app do?
+1. **Clone the repository**:
+   ```bash
+   git clone <repo-link>
+   cd <repo-directory>
+   ```
 
+2. **Install dependencies**:
 
-<br /><br />
+   In the root directory (for the backend):
+   ```bash
+   npm install
+   ```
 
+   Navigate to the `client` folder (for the frontend):
+   ```bash
+   cd client
+   npm install
+   ```
 
-## What challenges are you building for? SELECT ALL THAT APPLY
-*See hackmidwest.com/#prizes for challenge details*
-- [x]  Pinata Challenge
-- [x]  Pinata AI Challenge
-- [ ]  Pinata Enterprise Challenge
-- [ ]  AWS Bedrock Challenge
-- [ ]  Red Hat | Intel AI Challenge
-- [ ]  Zoom Challenge
-- [ ]  USDA Challenge
-- [ ]  brAIn Rot Challenge
+3. **Set up environment variables**:
+   Create a `.env` file in the root directory and add your configuration details (API keys, database connection strings, etc.). Example:
+   ```
+   MONGO_URI=your-mongodb-uri
+   PORT=5000
+   REACT_APP_API_URL=http://localhost:5000
+   ```
 
+4. **Run the app**:
+   First, start the server (back-end):
+   ```bash
+   npm start
+   ```
 
-<br /><br />
+   Then, in another terminal, start the front-end (React):
+   ```bash
+   cd client
+   npm start
+   ```
+
+   The app will be available on `http://localhost:3000`.
+
+---
+
+### How to Use:
+1. Open your browser and navigate to `http://localhost:3000`.
+2. Type a disaster-related query in the provided text box.
+3. Hit submit to get real-time responses related to your question.
+
+---
+
+### Contributing:
+Feel free to contribute by submitting issues or pull requests. Any feedback or suggestions to improve the app are welcome!
+
+---
